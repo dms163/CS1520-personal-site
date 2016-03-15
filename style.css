@@ -1,0 +1,43 @@
+body{
+    background-image: url("geometry2.png");
+    text-align: center;
+}
+img{
+    border-radius: 50%;
+    max-width: 50%;
+    max-height: 50%;
+}
+#content{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right:auto;
+    font-size: 18pt;
+    line-height: 1.2em;
+
+    font-family: Helvetica;
+    font-weight: lighter;
+    letter-spacing: 1.5px;
+    text-indent: 40px;
+    margin-top: 20px;
+}
+form {
+    width: 400px;
+    margin-left: auto;
+    margin-right:auto;
+}
+label {
+    float: left;
+    width: 150px; }
+input[type=text] {
+    float: left;
+    width: 250px;
+}
+input[type=email] {
+    float: left;
+    width: 250px;
+}
+.clear {
+    clear: both;
+    height: 0;
+    line-height: 0; }
+.floatright { float: right; }
